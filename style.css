@@ -1,0 +1,50 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+label, input, button {
+  
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+#maxprofit {
+  margin-top: 20px;
+}
+
+/* Mobile-specific styling */
+@media (max-width: 600px) {
+  label, input, button {
+    display: block;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+  }
+  
+  td {
+    padding: 5px;
+  }
+}
